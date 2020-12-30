@@ -3,7 +3,6 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
     <RazorLangVersion>3.0</RazorLangVersion>
-    <OutputType>Library</OutputType>
   </PropertyGroup>
 
   <ItemGroup>
@@ -14,40 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Client_Data\Client_Data.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Content Include="bin\Debug\netstandard2.1\wwwroot\appsettings.Development.json">
-      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-    </Content>
-    <Content Include="bin\Debug\netstandard2.1\wwwroot\css\app.css">
-      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-    </Content>
-    <Content Include="bin\Debug\netstandard2.1\wwwroot\favicon.ico">
-      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-    </Content>
-    <Content Include="bin\Debug\netstandard2.1\wwwroot\index.html">
-      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-    </Content>
-    <Content Include="bin\Debug\netstandard2.1\wwwroot\routes.json">
-      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-    </Content>
-    <Content Include="obj\Debug\netstandard2.0\Client_Data.deps.json" />
-    <Content Include="obj\Debug\netstandard2.0\Client_Data.dll" />
-    <Content Include="obj\Debug\netstandard2.0\Client_Data.pdb" />
-    <Content Include="obj\Debug\netstandard2.1\Client_Data.deps.json" />
-    <Content Include="obj\Debug\netstandard2.1\Client_Data.dll" />
-    <Content Include="obj\Debug\netstandard2.1\Client_Data.pdb" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="bin\Debug\netstandard2.1" />
+    <ProjectReference Include="..\Data\Data.csproj" />
   </ItemGroup>
 
 </Project>
